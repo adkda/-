@@ -14,5 +14,8 @@
 #import "UserManager.h"
 
 @implementation UserManager
-
++(instancetype)share{
+    static UserManager * um = nil;
+    
+}
 @end
